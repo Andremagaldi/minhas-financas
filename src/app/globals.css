@@ -1,0 +1,19 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-appbg text-text antialiased;
+}
+
+.card {
+  @apply rounded-xl border border-slate-700 bg-cardbg p-4 shadow-sm;
+}
+
+.grid-cards {
+  @apply grid grid-cols-1 gap-4 md:grid-cols-3;
+}
